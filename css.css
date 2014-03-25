@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700);
+
+p {
+	font-family: "Vollkorn" !important;
+	font-size: x-large;
+	line-height: 125%;
+}
+
+.zmenu,
+#top,
+#review_success,
+#review,
+button,
+.cimage,
+.lc-wrapper,
+#p_footer {
+	display: none !important;
+}
+
+#profile_top {
+	line-height: 150%;
+	padding-bottom: 2em;
+	margin-bottom: 1em;
+	border-bottom: 1px gray solid;
+}
+
+#content_wrapper {
+	max-width: 70em;
+}

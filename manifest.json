@@ -1,0 +1,14 @@
+{
+  "name": "Fictionpress Readability Friend",
+  "description": "Re-style Fictionpress reading page for better readability",
+  "version": "2.0",
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.fictionpress.com/s/*"],
+      "css": ["css.css"]
+    }
+  ],
+  "manifest_version": 2
+}
